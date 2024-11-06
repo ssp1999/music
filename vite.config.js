@@ -34,6 +34,7 @@ export default defineConfig({
     })
     // visualizer({ open: true })
   ],
+  base: '/music/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
